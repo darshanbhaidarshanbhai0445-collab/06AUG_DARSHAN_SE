@@ -1,0 +1,9 @@
+Product 1's Name: glass
+Product 1's Price: 1500
+------------------------
+Product 2's Name: tree
+Product 2's Price: 500
+------------------------
+Product 3's Name: phone
+Product 3's Price: 15000
+------------------------
