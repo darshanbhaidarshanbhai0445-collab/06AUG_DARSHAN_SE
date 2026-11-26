@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS school_db;
+use school_db;
+create table students(roll_no int primary key auto_increment, name varchar(50) not null,class varchar(10),city varchar(30));
+describe students;
+create table subjects(subject_id int primary key, subject_name varchar(40) not null,max_marks int);
+create table marks(marks_id int primary key auto_increment,roll_no int,subject_id int, marks_obtained int);
+alter table students add email varchar(60);
+alter table students modify city varchar(60);
+describe students;
+create table temp_notes (topics_id int auto_increment primary key, topic_name varchar(50));
+drop table temp_notes;
+drop database if exists school_db;
